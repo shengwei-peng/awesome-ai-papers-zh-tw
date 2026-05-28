@@ -1,0 +1,38 @@
+name: Update Papers Count
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'papers/**'
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update count in README files
+        run: |
+          count=$(find papers -type f | wc -l | xargs)
+          echo "Current papers count: $count"
+          
+          # Replace papers badge count in READMEs
+          sed -i -E "s/(img\.shields\.io\/badge\/papers-)[0-9]+(-blue)/\1$count\2/g" README.md README.zh-tw.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add README.md README.zh-tw.md
+          if git diff --staged --quiet; then
+            echo "No changes to README files"
+          else
+            git commit -m "docs: update papers count in READMEs [skip ci]"
+            git push
+          fi
