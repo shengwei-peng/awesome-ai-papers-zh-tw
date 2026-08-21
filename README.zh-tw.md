@@ -4,7 +4,7 @@
 
 **每日最新 AI 研究論文 × 繁體中文深度翻譯**
 
-[![Papers](https://img.shields.io/badge/papers-2260-blue)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/tree/main/papers)
+[![Papers](https://img.shields.io/badge/papers-2286-blue)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/tree/main/papers)
 [![License: CC BY 4.0](https://img.shields.io/badge/授權-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Last Updated](https://img.shields.io/github/last-commit/shengwei-peng/awesome-ai-papers-zh-tw?label=最後更新&color=green)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/commits/main)
 
