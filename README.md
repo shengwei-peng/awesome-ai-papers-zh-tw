@@ -4,7 +4,7 @@
 
 **Daily AI research papers — translated into Traditional Chinese (Taiwan)**
 
-[![Papers](https://img.shields.io/badge/papers-2286-blue)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/tree/main/papers)
+[![Papers](https://img.shields.io/badge/papers-2287-blue)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/tree/main/papers)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Last Updated](https://img.shields.io/github/last-commit/shengwei-peng/awesome-ai-papers-zh-tw?label=Last%20Updated&color=green)](https://github.com/shengwei-peng/awesome-ai-papers-zh-tw/commits/main)
 
